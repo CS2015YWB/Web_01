@@ -2,7 +2,7 @@
     background-image: url("../img/background1.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    margin: 0px auto;       /*对象上下间隔为0px，左右间隔根据对象宽度自适应*/
+    margin: 0px auto;                   /*对象上下间隔为0px，左右间隔根据对象宽度自适应*/
 }
 .header {
     margin-left: 150px;
@@ -11,7 +11,7 @@
 .nav {
     clear: both;
 	height: 36px;
-	overflow: hidden;    /*隐藏下划线*/
+	overflow: hidden;                  /*隐藏下划线*/
 }
 .nav a{
     display: block;
@@ -34,7 +34,7 @@
     border-color: #DFDFDF;
     padding: 10px 20px 10px 20px;
     background-color: #A6D0E4;
-    overflow: hidden;
+    overflow:hidden;
     zoom:1;
 }
 h1 {
@@ -64,8 +64,8 @@ twopart {
 line {
     float: left;  
     width: 50px;  
-    border-right: 1px dashed #E78775;   
-    border-width: 2px;                   /* 边框为2像素，虚线，颜色为#E78775*/
+    border-right: 1px dashed #E78775;  
+    border-width: 2px;                       /* 边框为2像素，虚线，颜色为#E78775*/
     padding-bottom: 1600px;
     margin-bottom: -1600px;
 }
@@ -86,7 +86,7 @@ table tr td{
     padding: 20px 0px 5px 0px;
     color: #FFFFFF;
     text-align: center;
-    clear: both;      /*不允许有浮动对象*/
+    clear: both;               /*不允许有浮动对象*/
 }
 /* 未访问的链接*/
 a:link {
